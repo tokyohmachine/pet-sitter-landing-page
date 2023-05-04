@@ -154,26 +154,74 @@
 /* MOBILE */
 /* styles for screens less than or equal to 798px wide */
 @media only screen and (max-width: 798px) {
-  .left-side-foot a {
-    font-size: 0.5625rem;
+  .left-side-foot {
+    display: none;
   }
-  .left-side-foot li{
-    font-size: 0.5625rem;
+  .right-side-foot {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-foot-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
   .right-foot-content h2 {
     font-size: 1.9rem;
-    margin-top: -40px;
+    text-align: center;
+    float: none;
+    
   }
+  .info-container {
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 20rem;
+  }
+
   .info-container a {
     font-size: 1.25rem !important;
   }
   .one {
     font-size: 1.25rem !important;
   }
-  .info-container {
-    max-width: 20rem;
-    
+  
+  .mobile-footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
   }
+  
+  /* adjust the styling of the mobile footer */
+  .mobile-footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .mobile-footer li{
+    font-size: 0.75rem;
+    margin-right: 0.625rem;
+    color: black;
+  }
+  
+  .mobile-footer a {
+    font-size: 0.75rem;;
+    text-decoration: none;
+    color: black;
+  }
+
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
