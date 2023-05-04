@@ -260,7 +260,7 @@ i {
   font-size: 3rem;
   color: black;
   letter-spacing: 0.61rem;
-  margin: 30px auto;
+  margin: 50px auto;
   
 }
 
@@ -283,7 +283,7 @@ i {
 .service-img {
   display: block;
   width: 100%;
-  max-width: 25rem;
+  max-width: 23rem;
   height: 100%;
   margin-left: 0.3125rem;
   margin-right: 1.6rem;
@@ -312,7 +312,7 @@ i {
 
 .secondary {
   background-color: #fb6107;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .secondary a {
@@ -405,3 +405,6 @@ i {
   font-size: 1.875rem;
 }
 
+.mobile-footer {
+  display: none;
+}
