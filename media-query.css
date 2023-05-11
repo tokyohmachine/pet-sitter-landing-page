@@ -195,6 +195,10 @@
     width: 100%;
     text-align: center;
   }
+  .left-side-foot a,
+  .mobile-footer a {
+  text-decoration: underline;
+}
   .mobile-footer i {
     font-size: 1rem;
     color: #504949c4;
